@@ -10,22 +10,22 @@
 // a = 16;
 // console.log(a);
 
-const student = {
-    fullname : 'lala',
-    age :12,
-    ispass : true
-};
+// const student = {
+//     fullname : 'lala',
+//     age :12,
+//     ispass : true
+// };
 // console.log(student.fullname);
-student.fullname = 'rana';
+// student.fullname = 'rana';
 // console.log(student.fullname);
 
 
-const product = {
-    name : "abhishek",
-    rating : 5,
-    offer : 12,
-    price :321
-};
+// const product = {
+//     name : "abhishek",
+//     rating : 5,
+//     offer : 12,
+//     price :321
+// };
 
 
 //for of loop
@@ -54,7 +54,7 @@ const product = {
 // );
 
 
-let arr = ["abhishek" , "kaka" , "kalu" , "peelu"];
+// let arr = ["abhishek" , "kaka" , "kalu" , "peelu"];
 // for(let i of arr){
 //     console.log(i);
 // }
@@ -66,7 +66,7 @@ let arr = ["abhishek" , "kaka" , "kalu" , "peelu"];
 // arr.pop();
 // console.log(arr);
 
-console.log(arr.toString());
+// console.log(arr.toString());
 
 // console.log(arr);
 // name = "Abhishek";
@@ -91,12 +91,12 @@ console.log(arr.toString());
 // console.log(student.fullname);
 
 
-const product = {
-    name : "abhishek",
-    rating : 5,
-    offer : 12,
-    price :321
-};
+// const product = {
+//     name : "abhishek",
+//     rating : 5,
+//     offer : 12,
+//     price :321
+// };
 
 
 //for of loop

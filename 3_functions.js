@@ -117,12 +117,12 @@ let arr = [1,2,3,4,5];
 // console.log(op);
 
 //max of an array
-const max = arr.reduce((acc,val) => {
-    if(val > acc){
-        acc = val;
-    }return acc;
-},0);
-console.log(max);
+// const max = arr.reduce((acc,val) => {
+//     if(val > acc){
+//         acc = val;
+//     }return acc;
+// },0);
+// console.log(max);
 
 
 
