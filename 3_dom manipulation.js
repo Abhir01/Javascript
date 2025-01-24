@@ -54,7 +54,7 @@
 // app.innerText = app.innerText + " from me";
 // console.log(app);
 
-let unique = document.querySelectorAll(".box");
+// let unique = document.querySelectorAll(".box");
 // unique[0].innerText = "hello";
 // unique[1].innerText = "bello";
 // unique[2].innerText = "cullo"; //simple
@@ -65,5 +65,54 @@ let unique = document.querySelectorAll(".box");
 //     ele.innerText = `new unique value ${ind}`;
 //     ind++;
 // }
+
+
+
+//Attribute selector
+//value of attribute
+// let ele = document.querySelector("div");
+// console.log(ele.getAttribute("id"));
+// console.log(ele.setAttribute("id","why")); //unddef ara but you can check it in elements broweser
+
+//style using js
+// let ele = document.querySelector("p");
+// ele.style.color = "red";
+// ele.style.fontSize = "25px";
+// ele.style.backgroundColor = "yellow";
+
+
+//insert elements
+// let divsel = document.querySelector("div");
+// divsel.style.border = "2px solid black"
+
+// let ele = document.createElement("button");
+// ele.innerText = "click Me";
+// divsel.append(ele);   //add btn to div at the end
+// divsel.prepend(ele);     //add btn to div at the starting
+// divsel.before(ele);     //div start hone se pehle (outside)
+// divsel.after(ele);          //div end hone ke baad (outside)
+
+
+// ele.remove();   //to remove a ele using js
+
+
+//body ke start me btn add kardo
+// let ele = document.querySelector("button");
+// ele.style.backgroundColor = "red";
+// ele.style.color = "white";
+// let sel = document.querySelector("body");
+// sel.prepend(ele);
+
+
+//to change a class of an element using js 
+//can to it using setattribute but it will replace existing 
+//but in classlist it add the new and keep the earlier one also
+let ele = document.querySelector(".js");
+ele.classList.add("hl");
+
+
+
+
+
 
 
